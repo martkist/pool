@@ -1,0 +1,23 @@
+{
+    "address": "TBwSbiJfnCNpyPqz9dgutyTuBs7NhkBBVt",
+    "daemons": [
+        {
+            "host": "node1",
+            "port": 14041,
+            "user": "u",
+            "password": "p"
+        },
+        {
+            "host": "node2",
+            "port": 14041,
+            "user": "u",
+            "password": "p"
+        },
+        {
+            "host": "node3",
+            "port": 14041,
+            "user": "u",
+            "password": "p"
+        }
+    ]
+}

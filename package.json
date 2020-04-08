@@ -1,0 +1,32 @@
+{
+    "name": "martkist-pool",
+    "version": "1.0.0",
+    "description": "A mining pool for Martkist, used for testnet, merged mining testing, and to demo correct pool config",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "martkist",        
+        "merged",
+        "multipool",
+        "multicoin"
+    ],
+    "homepage": "https://github.com/martkist/pool",
+    "bugs": {
+        "url": "https://github.com/martkist/pool/issues"
+    },
+    "license": "GPL-2.0",
+    "main": "init.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/martkist/pool.git"
+    },
+    "dependencies": {
+        "merged-pooler": "git://github.com/martkist/node-merged-pool"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
