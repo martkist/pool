@@ -63,12 +63,12 @@ var pool = Stratum.createPool({
        optional and will only be used for the ports you configure it for. */
     "ports": {
         "3001": { //A port for your miners to connect to
-            "diff": 0, //the pool difficulty for this port
+            "diff": 0.00001, //the pool difficulty for this port
 
             /* Variable difficulty is a feature that will automatically adjust difficulty for
                individual miners based on their hashrate in order to lower networking overhead */
             "varDiff": {
-                "minDiff": 0, //Minimum difficulty
+                "minDiff": 0.00001, //Minimum difficulty
                 "maxDiff": 512, //Network difficulty will be used if it is lower than this
                 "targetTime": 15, //Try to get 1 share per this many seconds
                 "retargetTime": 90, //Check to see if we should retarget every this many seconds
@@ -95,7 +95,7 @@ var pool = Stratum.createPool({
         "enabled": true,
 
         /* Host for daemon */
-        "host": "127.0.0.1",
+        "host": "node1",
 
         /* Port configured for daemon (this is the actual peer port not RPC port) */
         "port": 14040,
